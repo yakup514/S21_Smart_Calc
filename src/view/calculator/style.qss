@@ -1,0 +1,50 @@
+QPushButton {
+    background-color: rgb(103, 99, 101);
+    color: white;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+QPushButton:pressed {
+    background-color: rgb(128, 125, 126);
+}
+QPushButton#orange_button {
+    background-color: rgb(245,148,42);
+}
+
+QPushButton#orange_button:pressed{
+    background-color: rgb(202,113,32);
+}
+
+QPushButton#numeric_button {
+    background-color: rgb(122,120,123);
+}
+
+QPushButton#numeric_button:pressed{
+    background-color: rgb(175,173,174);
+}
+
+QPushButton#replot_btn {
+    background-color: rgb(49,152,93);
+    font-size: 12px; 
+    border-radius: 4px;
+    color: white;
+}
+
+
+QPushButton#replot_btn:pressed {
+    background-color: rgb(80,182,142);i
+    border-radius: 4px;
+    color: white;
+}
+QLineEdit#line1 {
+    color: rgb(103, 99, 101);
+    font: italic;
+    border: none;
+}
+
+
+QLineEdit#line2 {
+    font-size: 32pt;
+    border: none;
+}
